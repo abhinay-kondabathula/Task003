@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image:url(background001.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+  width: 100%;
+  height: 17vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo{
+width: 180px;
+cursor: pointer;
+}
+.search{
+  width: 40px;
+  cursor: pointer;
+}
+.search:hover{
+  transform: scale(140%);
+}
+.cart{
+  width: 40px;
+  cursor: pointer;
+}
+.cart:hover{
+  transform: scale(140%);
+}
+nav{
+  flex: 1;
+  padding-left:60px;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 30px;
+  font-size: 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:#211f1f;
+}
+nav ul li:hover{
+  transform: scale(125%);
+}
+.content a{
+  font-size: 25px;
+  color: #613905;
+  font-weight: 200;
+  margin-top: 24px;
+  margin-bottom: 15px;
+
+}
+
+.content h1{
+  font-size: 60px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color:#edeef5;
+}
+.content p{
+  font-size: 25px;
+  color:#583402;
+}
+.content{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.content .btn{
+  display: inline-block;
+  background:linear-gradient(45deg,#e9eaec,#a96205);
+  border-radius: 6px;
+  padding:10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.btn:hover{
+  transform: scale(115%);
+}
+.arrow-icons img{
+  width: 40px;
+  margin-right: 25px;
+}
+.arrow-icons img:hover{
+  scale: 115%;
+}
+.feature-img{
+  height: 80%;
+  position:absolute;
+  bottom: 0;
+  right: 90px;
+}
+.Social-links{
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -80px;
+  bottom: 180px;
+}
+.Social-links a{
+  text-decoration: none;
+  color:#5e2d0b;
+  padding-right: 20px;
+  font-size: 18px;
+}
+.span{
+  color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
